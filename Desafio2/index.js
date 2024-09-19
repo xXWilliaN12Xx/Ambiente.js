@@ -17,4 +17,4 @@ function verificação(string) {
 }
 
 const texto = 'Desejo passar na seleção!';
-console.log(verificação(texto));
+console.log(verificação(texto)); // Saída: A letra 'a' aparece 3 vezes.

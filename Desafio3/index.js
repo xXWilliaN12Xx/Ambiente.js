@@ -5,4 +5,4 @@ while (k < indice) {
     soma = soma + k;
 }
 
-console.log(soma);
+console.log(soma); // Saída: 77

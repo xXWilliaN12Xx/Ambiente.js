@@ -23,7 +23,7 @@ class Sala {
 function descobrirInterruptores() {
   const sala = new Sala();
 
-  r;
+
   console.log("Ligando o Interruptor 1...");
   sala.ligarLampada(0);
   setTimeout(() => {
@@ -39,4 +39,10 @@ function descobrirInterruptores() {
   }, 5000);
 }
 
-descobrirInterruptores();
+descobrirInterruptores(); 
+// Saída: Ligando o Interruptor 1... 
+// Desligando o Interruptor 1 e ligando o Interruptor 2... 
+// Estado das lâmpadas: 
+// Lâmpada 1 está apagada.
+// Lâmpada 2 está acesa.
+// Lâmpada 3 está apagada.
